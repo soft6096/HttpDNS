@@ -94,7 +94,6 @@
     
     if (host.length) {
         
-        
     }
     
     return nil;
