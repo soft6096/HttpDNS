@@ -13,6 +13,7 @@
 		E919C9AA1C88198900C9CACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E919C9A81C88198900C9CACD /* Main.storyboard */; };
 		E919C9AC1C88198900C9CACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E919C9AB1C88198900C9CACD /* Assets.xcassets */; };
 		E919C9AF1C88198900C9CACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E919C9AD1C88198900C9CACD /* LaunchScreen.storyboard */; };
+		E919C9B91C88398200C9CACD /* DNSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E919C9B81C88398200C9CACD /* DNSManager.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		E919C9AB1C88198900C9CACD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E919C9AE1C88198900C9CACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E919C9B01C88198900C9CACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E919C9B71C88398200C9CACD /* DNSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNSManager.h; sourceTree = "<group>"; };
+		E919C9B81C88398200C9CACD /* DNSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNSManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		E919C99E1C88198900C9CACD /* HttpDNS */ = {
 			isa = PBXGroup;
 			children = (
+				E919C9B61C88394D00C9CACD /* LJDNSManager */,
 				E919C9A21C88198900C9CACD /* AppDelegate.h */,
 				E919C9A31C88198900C9CACD /* AppDelegate.m */,
 				E919C9A51C88198900C9CACD /* ViewController.h */,
@@ -77,6 +81,15 @@
 				E919C9A01C88198900C9CACD /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E919C9B61C88394D00C9CACD /* LJDNSManager */ = {
+			isa = PBXGroup;
+			children = (
+				E919C9B71C88398200C9CACD /* DNSManager.h */,
+				E919C9B81C88398200C9CACD /* DNSManager.m */,
+			);
+			path = LJDNSManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 				E919C9A71C88198900C9CACD /* ViewController.m in Sources */,
 				E919C9A41C88198900C9CACD /* AppDelegate.m in Sources */,
 				E919C9A11C88198900C9CACD /* main.m in Sources */,
+				E919C9B91C88398200C9CACD /* DNSManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
