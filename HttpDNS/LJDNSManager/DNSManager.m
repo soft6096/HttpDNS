@@ -107,7 +107,7 @@
  *
  *  @param address
  */
--(void)checkAddressCanBeResponse:(NSString *)address{
+-(void)checkAddressCanBeResponse:(NSString *)address{  
     
     NSMutableURLRequest *urlRequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:address]];
     urlRequest.timeoutInterval = 5;
